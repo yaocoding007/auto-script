@@ -21,6 +21,10 @@ git-push
 git add .
 git commit -m $msg||'update'
 git push origin $current-branch
+
+#示例
+
+git-push "feat: update readme"
 ```
 
 
