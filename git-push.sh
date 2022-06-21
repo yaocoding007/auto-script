@@ -14,8 +14,12 @@ echo -e "\033[33m 当前分支: $branch \033[0m"
 
 echo -e "\n"
 
+echo -e "\033[33m commit message: $MSG \033[0m"
+
+echo -e "\n"
+
 git add .
-git commit -m ${MSG}
+git commit -m "${MSG}"
 git push origin $branch
 
 echo -e "\033[36m 提交上去了，关机下班 \033[0m"
