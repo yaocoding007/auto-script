@@ -20,7 +20,7 @@ echo -e "\n"
 
 git branch -D $target
 git checkout -b $target
-git push origin $branch -f
+git push origin $target -f
 
 echo -e "\033[36m 提交上去了 \033[0m"
 
