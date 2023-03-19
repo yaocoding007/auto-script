@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "git-push": "./git-push.sh"
+    "git-push": "./git-push.sh",
+    "push-test": "./push-test.sh",
+    "demo-c": "./create-demo-file.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
