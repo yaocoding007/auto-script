@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": {
     "git-push": "./git-push.sh",
-    "push-test": "./push-test.sh",
+    "push-origin": "./push-test.sh",
     "demo-c": "./create-demo-file.sh"
   },
   "scripts": {
